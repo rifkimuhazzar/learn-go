@@ -1,0 +1,14 @@
+{{define "hello"}}
+{{template "header.html" .}}
+
+    <div>
+      <h2>This is content!</h2>
+      <h3>Hello {{.Name}}</h3>
+    </div>
+
+{{template "f"}}
+{{end}}
+
+{{define "world"}}
+    <h1>Hello World</h1>
+{{end}}

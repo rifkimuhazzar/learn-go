@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{.Title}}</title>
+  </head>
+  <body>
+    {{/* Example comment */}}
+    <h1>Languages: {{.Name}}</h1>
+    {{with .Framework}}
+    <p>Front-End: {{.FrontEnd}}</p>
+    <p>Back-End: {{.BackEnd}}</p>
+    {{else}}
+    <p>There is no data!</p>
+    {{end}}
+  </body>
+</html>
