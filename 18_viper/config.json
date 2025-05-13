@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "learn-go-viper",
+    "version": "1.0.0",
+    "author": "Monkey D. Luffy"
+  },
+  "database": {
+    "show_sql": true,
+    "host": "localhost",
+    "port": 3306
+  }
+}

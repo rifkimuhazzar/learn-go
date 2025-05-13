@@ -1,0 +1,27 @@
+### Create a new category
+post http://localhost:3000/api/categories
+X-API-KEY: SECRET
+
+{
+  "name": "Kitchen"
+}
+
+### Get a category by id
+get http://localhost:3000/api/categories/5
+X-API-KEY: SECRET
+
+### Get all categories
+get http://localhost:3000/api/categories
+X-API-KEY: SECRET
+
+### Update a category
+put http://localhost:3000/api/categories/5
+X-API-KEY: SECRET
+
+{
+  "name": "Food"
+}
+
+### Delete a category by id
+delete http://localhost:3000/api/categories/1
+X-API-KEY: SECRET
